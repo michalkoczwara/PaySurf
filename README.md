@@ -19,3 +19,10 @@ looking at the Data-ID input field for a current address.
 
 This exploit works as the wallet in paypal is missing CSRF headers.
 
+<b>BUT WHY DONT YOU USE AJAX TO DO A CROSS DOMAIN REQUEST???</b>
+
+Well yes i could, but there is a problem.
+
+1. You would be able ton only do a single request, as PayPal has a same origin policy.
+2. Even if you could do multiple requests, browsers like Firefox and Chrome have enabled web security.
+
