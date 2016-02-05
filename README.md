@@ -17,3 +17,5 @@ Due to the same origin policy paypal has in place, i am not sure if this can be 
 BillingAddressID can be fetched manually by adding a new credit card to your account, opening developer tools and
 looking at the Data-ID input field for a current address.
 
+This exploit works as the wallet in paypal is missing CSRF headers.
+
